@@ -17,7 +17,7 @@ public class Task02 {
 
         // random integer number in [a, b]
         int a = 10;
-        int b = 20;
+        int b = 30;
         for (int i = 0; i < 10; i++) {
             System.out.print(random.nextInt(b - a + 1) + a + " ");
         }
